@@ -1,0 +1,330 @@
+/* reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+/*** 입점상담회 custom style ***/
+
+
+/* 레이아웃 공통 */
+section.landingWrap {
+    width:100%;
+    max-width:960px;
+    margin:0 auto;
+}
+
+section.landingWrap article.section {
+    text-align: center;
+    padding:100px 0;
+    transition: all 0.5s ease;
+}
+
+section.landingWrap article.section .content {
+    width:70%;
+    margin:0 auto;
+    transition: all 0.5s ease;
+}
+
+section.landingWrap article.section .content img {
+    width:100%;
+}
+
+
+
+/* 섹션별 배경 */
+section.landingWrap article.section1 {
+    background-color:#534CDB;
+    background-image:url('../image/section1_bg.png');
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-position:right bottom -10%;
+    padding-bottom:48%;
+}
+
+section.landingWrap article.section2 {
+    background-color:#fff;
+}
+
+section.landingWrap article.section3 {
+    background-color:#03081B;
+}
+
+section.landingWrap article.section4 {
+    background-color:#fff;
+}
+
+section.landingWrap article.section5 , section.landingWrap article.section9 , section.landingWrap article.section13 {
+    background-color: rgba(0,0,0,0.6);
+    position: relative;
+    padding: 20% 0;
+    overflow: hidden;
+}
+
+section.landingWrap article.section6 {
+    background-image:url('../image/section6_bg.png');
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-position:center bottom;
+    padding-bottom:75%;
+}
+
+section.landingWrap article.section7 {
+    background-color:#00CCAA;
+}
+
+section.landingWrap article.section8 {
+    background-color:#fff;
+}
+
+section.landingWrap article.section10 {
+    background-color:#fff;
+}
+
+section.landingWrap article.section11 {
+    background-color:#3355FF;
+}
+
+section.landingWrap article.section12 {
+    background-color:#fff;
+}
+
+section.landingWrap article.section14 {
+    background-color:#fff;
+}
+
+section.landingWrap article.section15 {
+    background-color:#FFB200;
+}
+
+section.landingWrap article.section16 {
+    background-color:#fff;
+}
+
+section.landingWrap article.section17 {
+    background-color:#000;
+}
+
+
+/* 컨텐츠 */
+section.landingWrap article.section3 .content3-2 {
+    margin-top:100px;
+}
+
+section.landingWrap article.section4 .content4-1 {
+    margin-bottom:50px;
+    width: 40%;
+}
+
+section.landingWrap article.section5 .back_media, section.landingWrap article.section9 .back_media, section.landingWrap article.section13 .back_media {
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+section.landingWrap article.section5 .back_media iframe, section.landingWrap article.section9 .back_media iframe, section.landingWrap article.section13 .back_media iframe {
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    z-index: -1;
+}
+
+section.landingWrap article.section5 .content5-2 , section.landingWrap article.section9 .content9-2, section.landingWrap article.section13 .content13-2 {
+    width: 40%;
+    margin-top:80px;
+}
+
+section.landingWrap article.section7 .content7-1 {
+    margin-bottom: 100px;
+    width:30%;
+}
+
+section.landingWrap article.section10 .content10-2 {
+    margin-top:100px;
+}
+
+section.landingWrap article.section11 .content11-1 {
+    margin-bottom: 100px;
+    width:30%;
+}
+
+section.landingWrap article.section14 .content14-1 {
+    margin-bottom: 100px;
+    width:50%;
+}
+
+section.landingWrap article.section16 .content16-2 {
+    margin-bottom: 100px;
+    margin-top:30px;
+    width:30%;
+}
+
+section.landingWrap article.section17 .content17-1 {
+    margin-bottom:100px;
+    width:50%;
+}
+
+section.landingWrap article.section17 .content17-2 {
+    margin-bottom:60px;
+    width:20%;
+}
+
+section.landingWrap article.section17 .cont-youtube {
+    margin-top:90px;
+}
+
+section.landingWrap article.section17 .cont-youtube:first-child {
+    margin-top: 0;
+}
+
+section.landingWrap article.section17 .cont-youtube .content17-youtube {
+    margin-bottom:40px;
+    position:relative;
+    padding-top:56%;
+    width: 100%;
+    overflow:hidden;
+    border-radius:10px;
+}
+
+section.landingWrap article.section17 .cont-youtube .content17-youtube iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+section.landingWrap article.section17 .content17-6 {
+    margin:100px auto;
+    width:60%;
+}
+
+section.landingWrap article.section17 .content17-btnBox {
+    display:flex;
+    justify-content: space-between;
+}
+
+section.landingWrap article.section17 .content17-btnBox > a {
+    display:block;
+    width:32%;
+}
+
+/* 반응형 */
+@media screen and (max-width:480px) {
+    section.landingWrap article.section {
+        padding:60px 0;
+    }
+
+    section.landingWrap article.section:first-child {
+        padding:100px 0;
+    }
+
+    section.landingWrap article.section6 {
+        padding-bottom:75%;
+    }
+
+    section.landingWrap article.section .content {
+        width:90%;
+    }   
+
+    section.landingWrap article.section4 .content4-1, 
+    section.landingWrap article.section7 .content7-1, 
+    section.landingWrap article.section11 .content11-1 {
+        width:50%;
+    }
+
+    section.landingWrap article.section5 .content5-2, 
+    section.landingWrap article.section9 .content9-2, 
+    section.landingWrap article.section13 .content13-2, 
+    section.landingWrap article.section16 .content16-2, 
+    section.landingWrap article.section17 .content17-1 {
+        width:60%;
+    }
+
+    section.landingWrap article.section17 .content17-2 {
+        width:30%;
+    }
+
+    section.landingWrap article.section17 .content17-6 {
+        width: 80%;
+    }
+
+    section.landingWrap article.section3 .content3-2,
+    section.landingWrap article.section10 .content10-2 {
+        margin-top:50px;
+    }
+
+    section.landingWrap article.section5 .content5-2,
+    section.landingWrap article.section9 .content9-2, 
+    section.landingWrap article.section13 .content13-2,
+    section.landingWrap article.section17 .cont-youtube {
+        margin-top:40px;
+    }
+
+    section.landingWrap article.section7 .content7-1,
+    section.landingWrap article.section11 .content11-1,
+    section.landingWrap article.section14 .content14-1,
+    section.landingWrap article.section16 .content16-2 {
+        margin-bottom:50px;
+    }
+
+    section.landingWrap article.section17 .content17-2,
+    section.landingWrap article.section17 .content17-1  {
+        margin-bottom: 20px;
+    }
+
+    section.landingWrap article.section17 .content17-6 {
+        margin: 50px auto;
+    }
+}
